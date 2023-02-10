@@ -1,10 +1,5 @@
-import { Main } from 'components/Main';
+import { Heading } from '@ignite-ui/react';
 
 export default function Home() {
-  return (
-    <Main
-      title="React Avançado"
-      description="TypeScript, ReactJS, NextJS e Styled Components"
-    />
-  );
+  return <Heading>Hello World</Heading>;
 }

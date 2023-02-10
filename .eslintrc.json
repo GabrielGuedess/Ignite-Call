@@ -21,11 +21,9 @@
     "plugin:react/recommended",
     "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "plugin:styled-components-a11y/recommended",
     "plugin:storybook/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
-    "stylelint",
     "next"
   ],
   "parser": "@typescript-eslint/parser",
@@ -41,7 +39,6 @@
     "@typescript-eslint",
     "prettier",
     "react-hooks",
-    "styled-components-a11y",
     "import",
     "jest",
     "import-helpers"
@@ -59,6 +56,8 @@
     "jest/no-identical-title": "error",
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
+    "react/no-danger": "off",
+    "object-curly-newline": "off",
     "space-before-function-paren": "off",
     "arrow-parens": "off",
     "react/prop-types": "off",
@@ -93,13 +92,13 @@
         "newlinesBetween": "always",
         "groups": [
           "/^next/",
+          "/^@next/",
           "/^react/",
           "/^@testing-library/",
           "/storybook/",
-          "/^components/",
-          "/^styled-components/",
-          "/^styles/",
           "module",
+          "/^components/",
+          "/^styles/",
           ["parent", "sibling", "index"]
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
