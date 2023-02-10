@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Register /> should render the register correctly 1`] = `
+<main
+  class="c-bQLDdH"
+>
+  <div
+    class="c-eoAkyC"
+  >
+    <strong
+      class="c-btBDqU c-btBDqU-kupvTz-size-md"
+    >
+      Bem-vindo ao Ignite Call!
+    </strong>
+    <p
+      class="c-kQRPbk c-kQRPbk-kWyXas-size-md"
+    >
+      Precisamos de algumas informações para criar seu perfil! Ah, você pode editar essas informações depois.
+    </p>
+    <div
+      class="c-PJLV"
+    >
+      <p
+        class="c-kQRPbk c-dEeutJ c-kQRPbk-cEPjnm-size-xs"
+      >
+        Passo 
+        1
+         de 
+        4
+      </p>
+      <div
+        class="c-kXrOno c-kXrOno-ikXTYzW-css"
+      >
+        <div
+          class="c-idKKtl c-idKKtl-eBFdCY-active-true"
+        />
+        <div
+          class="c-idKKtl"
+        />
+        <div
+          class="c-idKKtl"
+        />
+        <div
+          class="c-idKKtl"
+        />
+      </div>
+    </div>
+  </div>
+  <form
+    class="c-cAYWOa c-dvZBIQ"
+  >
+    <label
+      for="username"
+    >
+      <p
+        class="c-kQRPbk c-kQRPbk-fAKXXr-size-sm"
+      >
+        Nome de usuário
+      </p>
+      <div
+        class="c-jlrPyi c-jlrPyi-jQpRRJ-size-md"
+      >
+        <span
+          class="c-bOKaMi"
+        >
+          ignite.com/
+        </span>
+        <input
+          class="c-grKefI"
+          id="username"
+          name="username"
+          placeholder="seu-usuário"
+        />
+      </div>
+    </label>
+    <label
+      for="name"
+    >
+      <p
+        class="c-kQRPbk c-kQRPbk-fAKXXr-size-sm"
+      >
+        Nome completo
+      </p>
+      <div
+        class="c-jlrPyi c-jlrPyi-jQpRRJ-size-md"
+      >
+        <input
+          class="c-grKefI"
+          id="name"
+          name="name"
+          placeholder="Seu nome"
+        />
+      </div>
+    </label>
+    <button
+      class="c-jZXQKc c-jZXQKc-hazApa-variant-primary c-jZXQKc-eDoJcS-size-md"
+      type="submit"
+    >
+      Próximo passo
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          fill="none"
+          height="256"
+          width="256"
+        />
+        <line
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+          x1="40"
+          x2="216"
+          y1="128"
+          y2="128"
+        />
+        <polyline
+          fill="none"
+          points="144 56 216 128 144 200"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        />
+      </svg>
+    </button>
+  </form>
+</main>
+`;

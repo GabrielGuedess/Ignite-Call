@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render the home correctly 1`] = `
+<div
+  class="c-gRvcUS"
+>
+  <div
+    class="c-cylgmr"
+  >
+    <h1
+      class="c-btBDqU c-btBDqU-idUsPu-size-4xl"
+    >
+      Agendamento descomplicado
+    </h1>
+    <p
+      class="c-kQRPbk c-kQRPbk-iPGoSV-size-xl"
+    >
+      Conecte seu calendário e permita que as pessoas marquem agendamentos no seu tempo livre.
+    </p>
+    <form
+      class="c-cAYWOa c-dWDLra"
+    >
+      <div
+        class="c-jlrPyi c-jlrPyi-cAYvGz-size-sm"
+      >
+        <span
+          class="c-bOKaMi"
+        >
+          ignite.com/
+        </span>
+        <input
+          class="c-grKefI"
+          name="username"
+          placeholder="seu-usuário"
+        />
+      </div>
+      <button
+        class="c-jZXQKc c-jZXQKc-hazApa-variant-primary c-jZXQKc-eeFPgf-size-sm"
+        type="submit"
+      >
+        Reservar
+        <svg
+          fill="currentColor"
+          height="1em"
+          viewBox="0 0 256 256"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            fill="none"
+            height="256"
+            width="256"
+          />
+          <line
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="16"
+            x1="40"
+            x2="216"
+            y1="128"
+            y2="128"
+          />
+          <polyline
+            fill="none"
+            points="144 56 216 128 144 200"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="16"
+          />
+        </svg>
+      </button>
+    </form>
+    <div
+      class="c-fgnWld"
+    >
+      <p
+        class="c-kQRPbk c-kQRPbk-fAKXXr-size-sm"
+      >
+        Digite o nome do usuário desejado
+      </p>
+    </div>
+  </div>
+  <div
+    class="c-jlHWua"
+  >
+    <img
+      alt="App Preview"
+      data-nimg="1"
+      decoding="async"
+      height="442"
+      src="/_next/image?url=%2Fimg%2Fapp-preview.png&w=1920&q=100"
+      srcset="/_next/image?url=%2Fimg%2Fapp-preview.png&w=828&q=100 1x, /_next/image?url=%2Fimg%2Fapp-preview.png&w=1920&q=100 2x"
+      style="color: transparent;"
+      width="827"
+    />
+  </div>
+</div>
+`;

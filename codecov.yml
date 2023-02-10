@@ -19,13 +19,12 @@ coverage:
         enabled: off
 
 ignore:
-  - "src/**/stories.tsx"
-  - "src/pages/**/*.tsx"
-  - "src/styles/**/*.ts"
-  - "src/utils/tests/*.ts"
-  - "src/utils/tests/*.tsx"
+  - 'src/**/stories.tsx'
+  - 'src/pages/**/*.tsx'
+  - 'src/styles/**/*.ts'
+  - 'src/utils/tests/*.ts'
+  - 'src/utils/tests/*.tsx'
   - docker
   - generators
-  - .storybook
   - .github
   - .git

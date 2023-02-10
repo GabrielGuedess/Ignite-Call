@@ -21,7 +21,6 @@
     "plugin:react/recommended",
     "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "plugin:storybook/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
     "next"
@@ -95,9 +94,9 @@
           "/^@next/",
           "/^react/",
           "/^@testing-library/",
-          "/storybook/",
           "module",
           "/^components/",
+          "/^lib/",
           "/^styles/",
           ["parent", "sibling", "index"]
         ],
